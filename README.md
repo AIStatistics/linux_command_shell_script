@@ -12,7 +12,7 @@ Frequently used linux commands and shell script  **Note:**  MarkDown is done by 
 -   **TERM**  – the current terminal type (for example,  **xterm**).
 -   **DISPLAY**  – the display used by  **X**. This variable is usually set to  **:0.0**, which means the first display on the current computer.
 -   **IFS** - Internal/input Field Separator. The _**$IFS**_ variable is often used with bash loops or with the `read` or `printf` builtin commands.
-- 
-## Parsing command line arguments
-you can follow the 4 steps to write a [parsing arguments script](parse_command_lines.md)
+
+## Script for Parsing command line arguments
+Here are the 4 steps to write a [parsing arguments script](parse_command_lines.md)
 
