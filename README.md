@@ -18,13 +18,15 @@ you can follow the 4 steps to write a [parsing arguments script](parse_command_l
 
 ## Linux commands
 - **echo** -Input a line of text with env variables, and display on standard output. The ‘**-e**‘ option with echo  acts as interpretation of escaped characters that are backslashed.
--- Example 1: Using option ‘**\b**‘ – backspace with backslash interpretor  ‘**-e**‘ which removes all the spaces in between.
-```
-$ echo -e "Spaces \bbtween \bwords \bare \removed" 
+ 
 
-Spacesbetweenwordsremoved
-```
--- Example 2: redirect and output to a file and not standard output.
-```
-$ echo "Test Page" > testpage
-
+    **Example 1**: Using option ‘**\b**‘ – backspace with backslash interpretor  ‘**-e**‘ which removes all the spaces in between.
+    ```
+    $ echo -e "Spaces \bbtween \bwords \bare \removed" 
+    
+    Spacesbetweenwordsremoved
+    ```
+     **Example 2**: redirect and output to a file and not standard output.
+    ```
+    $ echo "Test Page" > testpage
+    ```
